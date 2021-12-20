@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :users
   resources :colors
   get 'front/index'
   get 'front/about'
