@@ -15,9 +15,9 @@ def create_color
   return s
 end
 
-1.upto(10) do |c|
+1.upto(3) do |c|
   color = Color.new
   new_color = create_color()
   color.value = "#" + new_color.to_s
-  #color.save
+  color.save
 end
